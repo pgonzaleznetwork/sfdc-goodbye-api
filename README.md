@@ -7,7 +7,7 @@ Salesforce recently announced that are deprecating the APIs on version 7.0 throu
 
 The instructions though are **very long and require a lot of manual steps, copying pasting, using workbench or other API tool, etc.**
 
-This script simplies the task and only requires 2 steps.
+This script simplies the task and only requires 2 steps!
 
 ### Features
 
