@@ -33,7 +33,7 @@ npm install
 
 Use the API to get an access token to your org. You can use this free app https://www.appitek.com/tools/token-generator/
 
-### Get an access token to your org
+### Configure
 
 Go to the source directory and open the `src/index.js` file. Then update the connection object with the details of your org
 
