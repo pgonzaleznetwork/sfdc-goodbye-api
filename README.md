@@ -1,6 +1,8 @@
 # sfdc-goodbye-api
 ## A simple script to find API calls on a specific API version
 
+**YOU MUST HAVE EVENT MONITORING ENABLED TO USE THIS**
+
 Salesforce recently announced that are deprecating the APIs on version 7.0 through 20.0 and they have provided instructions on how to identify applications making API calls into your org and what API version they are using.
 
 [Salesforce Platform API Versions 7.0 through 20.0 Retirement](https://help.salesforce.com/articleView?id=000351312&type=1&mode=1)
