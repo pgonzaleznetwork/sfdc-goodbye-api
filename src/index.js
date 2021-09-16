@@ -4,7 +4,7 @@ let connection = {
     token: 'dddSUzDF9v02J7uLXungygyPXTew7lEOkB5V54Yy9FgJkGQqZIWWexyd67',
     url:'https://mydomain.my.salesforce.com',
     apiVersion:'50.0',
-    apiThreshold:21
+    apiThreshold:30
 };
 
 console.log('Starting...');
