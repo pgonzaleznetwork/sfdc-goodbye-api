@@ -1,7 +1,9 @@
-# sfdc-goodbye-api
+# Goodbye Old APIs
 ## A simple script to find API calls on a specific API version
 
+<p style="color:red">
 **YOU MUST HAVE EVENT MONITORING ENABLED TO USE THIS**
+</p>
 
 Salesforce recently announced that are deprecating the APIs on version 7.0 through 20.0 and they have provided instructions on how to identify applications making API calls into your org and what API version they are using.
 
@@ -31,21 +33,18 @@ npm install
 
 ### Get an access token to your org
 
-Use the API to get an access token to your org. You can use this free app https://www.appitek.com/tools/token-generator/
+Use the API to get an access token to your org. You can get one from https://happysoup.io/session
 
 ### Configure
 
-Go to the source directory and open the `src/index.js` file. Then update the connection object with the details of your org
+Go to the source directory and open the `.env` file. Then update the file with details of your org
 
-```javascript
+```
 
-let connection = {
-    token: 'your token',
-    url:'your instance url',
-    apiVersion:'50.0',
-    apiThreshold:30 << API VERSION THRESHOLD
-};
-
+token=your access token from https://happysoup.io/session
+url=your org url, for example https://brave-raccoon-mm7crl-dev-ed.my.salesforce.com
+apiVersion=current API version, for example 54.0
+apiThreshold=The max API version you want to search API calls for, read the docs for details
 
 ```
 

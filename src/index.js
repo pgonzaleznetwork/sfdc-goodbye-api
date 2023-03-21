@@ -1,10 +1,10 @@
 let findVersions = require('../lib/findVersions');
 
 let connection = {
-    token: 'dddSUzDF9v02J7uLXungygyPXTew7lEOkB5V54Yy9FgJkGQqZIWWexyd67',
-    url:'https://mydomain.my.salesforce.com',
-    apiVersion:'50.0',
-    apiThreshold:21
+    token: process.env.token,
+    url:process.env.url,
+    apiVersion: process.env.apiVersion,
+    apiThreshold: process.env.apiThreshold
 };
 
 console.log('Starting...');
