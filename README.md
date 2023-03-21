@@ -1,9 +1,9 @@
 # Goodbye Old APIs
 ## A simple script to find API calls on a specific API version
 
-<p style="color:red">
+
 **YOU MUST HAVE EVENT MONITORING ENABLED TO USE THIS**
-</p>
+
 
 Salesforce recently announced that are deprecating the APIs on version 7.0 through 20.0 and they have provided instructions on how to identify applications making API calls into your org and what API version they are using.
 
